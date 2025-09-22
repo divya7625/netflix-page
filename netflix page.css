@@ -1,0 +1,91 @@
+/* Import Google Font similar to Netflix */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    background-image: url("netflix-background-gs7hjuwvv2g0e9fj.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  width: 320px;
+  border-radius: 8px;
+  color: white;
+}
+
+.logo {
+  color: #e50914;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  background: #333;
+  color: white;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #e50914;
+}
+
+button {
+  background: #e50914;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #f6121d;
+}
+
+.help-text {
+  font-size: 13px;
+  margin-top: 15px;
+  color: #b3b3b3;
+}
+
+.help-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.help-text a:hover {
+  text-decoration: underline;
+}
+
+
